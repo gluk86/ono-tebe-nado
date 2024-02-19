@@ -62,12 +62,12 @@
     width: 100%;
     max-height: 757px;
     height: 100%;
-    background: #000;
 }
 
 .overlay {
+    background: #000;
     opacity: 0.6;
-    z-index: 0;
+    z-index: 2;
 }
 
 .cover__title {
@@ -95,6 +95,7 @@
     margin-top: 165px;
     text-align: left;
     margin-left: 50px;
+    z-index: 3;
 }
 
 .cover__title_span-extraspacing {
@@ -104,12 +105,14 @@
 .cover__title_span-center {
     text-align: center;
     line-height: 100%;
+    z-index: 3;
 }
 
 .cover__title_span-right {
     text-align: right;
     line-height: 100%;
     margin-right: 50px;
+    z-index: 3;
 }
 
 .cover__title_span-normalspacing {
@@ -131,6 +134,7 @@
     text-transform: uppercase;
     color: #fff;
     word-spacing: 18px;
+    z-index: 3;
 }
 
 .cover__subtitle-extraspacing {
@@ -191,6 +195,14 @@
     height: 563px;
 }
 
+.lots__card_overlay {
+    position: absolute;
+    max-width: 334px;
+    width: 100%;
+    max-height: 563px;
+    height: 100%;
+}
+
 .lots__lot1 {
     background-image: url("../images/card-lot-01.jpg");
     background-size: cover;
@@ -212,6 +224,7 @@
 .lots__card_text {
     margin-left: 40px;
     margin-right: 40px;
+    z-index: 3;
 }
 
 .lots__cards_title {
