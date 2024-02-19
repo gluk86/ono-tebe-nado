@@ -1,0 +1,353 @@
+.header {
+    margin: 92px 24px 0 24px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+}
+
+.header__logo {
+    padding: 0 5px 5px 5px;
+    width: 148px;
+    height: 105px;
+}
+
+.menu {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-underline-offset: 5px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+    margin-top: 44px;
+    margin-left: 26.52px;
+}
+
+.active__link {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__address {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    margin-top: 5px;
+}
+
+.address {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 237px;
+    width: 100%;
+    margin-right: 28px;
+    text-underline-offset: 5px;
+}
+
+/* cover */
+
+.cover__overlay {
+    position: absolute;
+    top: 293px;
+    max-width: 1100px;
+    width: 100%;
+    max-height: 757px;
+    height: 100%;
+    background: #000;
+}
+
+.overlay {
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.cover__title {
+    position: absolute;
+    top: 293px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1100px;
+    width: 100%;
+    max-height: 757px;
+    height: 100%;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.cover__title_span-left {
+    margin-top: 165px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.cover__title_span-extraspacing {
+    letter-spacing: 0.6em;
+}
+
+.cover__title_span-center {
+    text-align: center;
+    line-height: 100%;
+}
+
+.cover__title_span-right {
+    text-align: right;
+    line-height: 100%;
+    margin-right: 50px;
+}
+
+.cover__title_span-normalspacing {
+    letter-spacing: 0.3em;
+}
+
+.cover__title_span-nospacing {
+    letter-spacing: 0em;
+}
+
+.cover__subtitle {
+    position: absolute;
+    top: 949px;
+    margin-left: 78px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 18px;
+}
+
+.cover__subtitle-extraspacing {
+    letter-spacing: 1.1em;
+}
+
+.cover__subtitle_button {
+    background: none;
+    margin-left: 82px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px 32px 11px 31px;
+}
+
+.cover__subtitle_link {
+    text-decoration: none;
+}
+
+
+/* lots */
+
+.lots {
+    position: relative;
+    top: 1032px;
+    max-width: 1052px;
+    width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.lots__title {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+    margin-left: 40px;
+
+}
+
+.lots__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.lots__card {
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 334px;
+    height: 563px;
+}
+
+.lots__lot1 {
+    background-image: url("../images/card-lot-01.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lots__lot2 {
+    background-image: url("../images/card-lot-02.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lots__lot3 {
+    background-image: url("../images/card-lot-03.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.lots__card_text {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.lots__cards_title {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #fff;
+    margin-top: 51px;
+}
+
+.lots__cards_subtitle {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.lots__subline {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/* about */
+
+.about {
+    position: absolute;
+    top: 2067px;
+    display: flex;
+    gap: 72px;
+    margin-left: 24px;
+    margin-right: 24px;
+    max-width: 1052px;
+    width: 100%;
+}
+
+.about__column_image {
+    background-color: #000;
+    margin-top: 35px;
+    margin-left: 47px;
+    height: 240px;
+    padding: 64px 45.52px 62px 46.48px;
+    border: solid 1px #000;
+    border-radius: 120px;
+}
+
+.about__image {
+    width: 148px;
+    height: 114px;
+}
+
+.about__column {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 136px;
+}
+
+.about__title {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.about__column_text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000;
+}
+
+.about__column_text-nospacing {
+    letter-spacing: 0em;
+}
+
+.about__column_text-spacing {
+    letter-spacing: 0.01em;
+}
+
+.about__column_text-negativespacing {
+    letter-spacing: -0.01em;
+}
+
+.about__column_text-extraspacing2 {
+    letter-spacing: 0.02em;
+}
+
+.about__column_text-extraspacing3 {
+    letter-spacing: 0.03em;
+}
+
+.about__column_text-extraspacing4 {
+    letter-spacing: 0.04em;
+}
+
+/* footer */
+
+.footer {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 50px 88px 50px;
+    top: 2842px;
+}
+
+.footer__menu {
+    text-align: center;
+    list-style: none;
+}
+
+.social {
+    display: flex;
+    gap: 48px;
+    justify-self: end;
+}
+
+.social__image {
+    width: 48px;
+    height: 48px;
+}
