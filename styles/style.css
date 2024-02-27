@@ -119,6 +119,12 @@
 }
 
 .cover__subline {
+    display: flex;
+    align-items: baseline;
+    margin-top: 13px;
+}
+
+.cover__subline_text {
     position: relative;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
@@ -128,7 +134,7 @@
     color: #fff;
     margin-top: 135px;
     margin-left: 78px;
-    padding-bottom: 52px;
+    padding-bottom: 62px;
     word-spacing: 18px;
     z-index: 2;
 }
@@ -138,6 +144,8 @@
 }
 
 .cover__subline_button {
+    position: relative;
+    z-index: 2;
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 22px;
@@ -147,7 +155,7 @@
     background: none;
     border: solid 1px #fff;
     padding: 12px 32px 11px 31px;
-    margin-left: 81px;
+    margin-left: 82px;
 }
 
 /* lots */
@@ -240,7 +248,7 @@
 .about {
     display: flex;
     gap: 72px;
-    margin: 151px 24px 0 24px;
+    margin: 146px 24px 0 24px;
     
 }
 
